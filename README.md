@@ -11,9 +11,9 @@ and will be rendered to beautiful HTML when you visit your GitHub repo.
 ## Student Information
 Please also edit _README.md_ and replace your instructor's name and NetID with your own:
 
-_Student name_: Dan WALLACH
+_Student name_: Hanzhang Song
 
-_Student NetID_: dwallach
+_Student NetID_: hs50
 
 Your NetID is typically your initials and a numeric digit. That's
 what we need here.
@@ -22,21 +22,29 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: Grading
 - Assumptions:
-  - explain_your_assumptions
+  - I do not have enough time to grade all 200+ students' homework, so I will have several TAs to help me.
+  - The type of the homework is a C++ project, grader need to check the correctness of the program and quality of the code.
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The integrity of the grades, only my TAs and me can make or change the students' grades.
+  - The confidentiality of the homeworks. The homeworks can not be seen by students who will take the course in the future.
+  - The integrity of the homeworks. The homeworks should be read only.
+  - The computers which the students' projects will run on. The homeworks are needed to be compiled and executed to check their correctness, so they are able to undermine the computers.
+  - The availability of the homework. I need to save the homework until the end of the course just in case that some students will argue the grades.
+  - The genuineness of the grades. Every student's homework should be graded fairly.
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - The students have a motivation to change their grades by hacking or wrecking my TAs' or my computer, bribing my TAs, and changing their submitted homework.
+  - My TAs may make high grade for the ones they love or low grade for the ones they hate.
+  - My TAs may sell the homework to the students who will take the course in the future.
+  - Some evil students may want to do something bad on my computer with their executable homework.
+  - Natural disasters like earthquake and fire.
 - Countermeasures:
   - explanatory_paragraph
   - explanatory_paragraph ...
 
 ## Problem 2
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: Stadium
 - Assumptions:
   - explain_your_assumptions
 - Assets:
